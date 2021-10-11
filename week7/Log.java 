@@ -1,0 +1,10 @@
+//Dog class
+public class Log extends Animal{
+    private String name;
+    public Log(String name){
+        super(name);
+    }
+	public String hello(){
+		return "Woof";
+	}
+}
